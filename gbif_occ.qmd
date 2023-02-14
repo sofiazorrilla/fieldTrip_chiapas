@@ -27,12 +27,12 @@ dat = d %>% select(
         specificEpithet,
         elevation) %>% filter(!is.na(decimalLatitude)) %>% filter(!is.na(specificEpithet))
 
-ch = filter(dat, stateProvince == "Chiapas") %>% mutate(interest = ifelse(specificEpithet %in% c("insignis","skinneri","corrugata"),specificEpithet,"no"))
+ch = filter(dat, stateProvince == "Chiapas") %>% mutate(interest = ifelse(specificEpithet %in% c("insignis","skinneri","corrugata", "copeyensis", "lancifolia","bumelioides"),specificEpithet,"no"))
 oax = filter(dat, stateProvince == "Oaxaca")
 
 # Archivos para meter en gmaps
 write.csv(dat,"data/sp_coord2.csv", row.names = F)
-write.csv(ch[,-9],"data/ch_coord2.csv", row.names = F)
+write.csv(ch[,-9],"data/ch_coord3.csv", row.names = F)
 write.csv(oax,"data/oax_coord2.csv", row.names = F)
 
 ```

@@ -30,14 +30,9 @@ dat = d %>% select(
 ch = filter(dat, stateProvince == "Chiapas")
 oax = filter(dat, stateProvince == "Oaxaca")
 
-dat %>% group_by(genus,specificEpithet) %>% summarise(n = n())
-
+# Archivos para meter en gmaps
 write.csv(dat,"data/sp_coord2.csv", row.names = F)
-
-
 write.csv(ch,"data/ch_coord2.csv", row.names = F)
-
-
 write.csv(oax,"data/oax_coord2.csv", row.names = F)
 
 ```
@@ -49,13 +44,12 @@ write.csv(oax,"data/oax_coord2.csv", row.names = F)
 library(treedataverse)
 library("readxl")
 
-
+# Cargar filogenia 2019
 raxml_file <- "data/RAxML_bipartitions.2019-03-13.singles.v4.tre"
 raxml_res <- read.tree(raxml_file)
 
 # xlsx files
 metadata <- read_excel("data/sample_metadata.xlsx",sheet = 1)
-
 
 ```
 
@@ -63,7 +57,6 @@ metadata <- read_excel("data/sample_metadata.xlsx",sheet = 1)
 
 ```{r}
 sp = dat %>% group_by(genus,specificEpithet) %>% reframe(sp = unique(scientificName)) %>% mutate(sp2 = paste(genus, specificEpithet))
-
 
 # De las especies de los registros de Chiapas cuales estan en la filogenia 
 filogenia = lapply(sp[["specificEpithet"]][-1],function(x) any(str_detect(metadata$`Cleaned_NAMES-USE-THIS`,x),na.rm = T))
@@ -86,17 +79,15 @@ chps = filter(metadata, inChiapas == T)
 
 
 ```{r}
+
+## Arboles filogeneticos
+
 met_tree = raxml_res %>% as_tibble() %>% left_join(metadata, by = "label") 
 
-mex_tre = met_tree %>% filter(clade %in% c("Erythromexicana","Leucomexicana")) 
+# Mexican oaks
+to_drop = metadata[which(!metadata$clade %in% c("Erythromexicana","Leucomexicana")),]$label
 
-ch_tre = met_tree %>% filter(inChiapas == T) 
-
-```
-
-
-```{r}
-tree = as.treedata(mex_tre) %>%  #drop.tip(., to_drop) %>% 
+tree = as.treedata(met_tree) %>%  drop.tip(., to_drop) %>% 
    ggtree() +
       geom_nodelab(
         mapping = aes(
@@ -104,12 +95,73 @@ tree = as.treedata(mex_tre) %>%  #drop.tip(., to_drop) %>%
         ),
         nudge_y = 2,
         size = 3
-      )#+
-   geom_tiplab(aes(label = paste(especie_orig,id_sitio,id_individuo,sep = "|")), size = 1)+
-   geom_point(aes(shape = especie_orig,fill = reg,color = reg))+
-  scale_shape_manual(values = c(21:25))+
-  geom_cladelab(data = node_clade, mapping = aes(node = node, label = clade, offset = offset),angle=90)+
-  geom_cladelab(data = node_subclade, mapping = aes(node = node, label = subclade, offset = offset),align = T)+
-     scale_color_brewer(palette = "Paired")+
-  scale_fill_brewer(palette = "Paired")
+      )+
+   geom_tiplab(aes(label = `Cleaned_NAMES-USE-THIS`), size = 2)+
+   geom_point(aes(color = inChiapas))#+
+  #scale_color_manual(values = c("red",""))
+  #geom_cladelab(data = node_clade, mapping = aes(node = node, label = clade, offset = offset),angle=90)+
+  #geom_cladelab(data = node_subclade, mapping = aes(node = node, label = subclade, offset = offset),align = T)+
+  #scale_color_brewer(palette = "Paired")+
+
+
+ggsave("mextree.png",tree,width = 30,height = 30, units = "cm")
+
+
+# White oaks 
+
+to_drop = metadata[which(!metadata$clade %in% c("Leucomexicana")),]$label
+
+tree = as.treedata(met_tree) %>%  drop.tip(., to_drop) %>% 
+   ggtree() +
+      geom_nodelab(
+        mapping = aes(
+          x = branch,
+        ),
+        nudge_y = 0.2,
+        size = 3
+      )+
+   geom_tiplab(aes(label = `Cleaned_NAMES-USE-THIS`), size = 3)+
+   geom_point(aes(color = inChiapas))#+
+  #scale_color_manual(values = c("red",""))
+  #geom_cladelab(data = node_clade, mapping = aes(node = node, label = clade, offset = offset),angle=90)+
+  #geom_cladelab(data = node_subclade, mapping = aes(node = node, label = subclade, offset = offset),align = T)+
+  #scale_color_brewer(palette = "Paired")+
+
+
+ggsave("white_mextree.png",tree,width = 30,height = 30, units = "cm")
 ```
+
+
+```{r}
+library(sf)
+
+
+dat %>% group_by(genus,specificEpithet) %>% summarise(n = n())
+
+o1 = read_sf("opcion1.kmz")
+o2 = read_sf("opcion2.kmz")
+
+projcrs <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84"
+
+points = st_as_sf(dat,
+                  coords = c("decimalLongitude","decimalLatitude"),
+                  crs = projcrs)
+pts_o1 = st_intersection(points,o1)
+
+pts_o2 = st_intersection(points,o2)
+
+sp1 = pts_o1 %>% as.tibble() %>% group_by(specificEpithet) %>% reframe(sp = unique(scientificName), n_1 = n())
+
+sp2 = pts_o2 %>% as.tibble() %>% group_by(specificEpithet) %>% reframe(sp = unique(scientificName), n_2 = n()) 
+
+ab = full_join(sp1,sp2, by = c("specificEpithet" = "specificEpithet", "sp" = "sp"))%>% 
+     .[-1,] %>%
+     mutate(n_1 = ifelse(is.na(n_1),0,n_1),n_2 = ifelse(is.na(n_2),0,n_2)) %>% 
+     arrange(desc(n_1),n_2) %>% filter(n_1 > 3 & n_2 >3)
+           
+library(ggrepel)
+
+ggplot(ab, aes(x = n_1, y = n_2))+geom_point()+geom_text_repel(aes(label = specificEpithet))+geom_abline()
+
+```
+

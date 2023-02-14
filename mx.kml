@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<GroundOverlay>
+<name>filled_demgw</name>
+<Icon><href>mx.png</href><viewBoundScale>0.75</viewBoundScale></Icon>
+	<LatLonBox>
+		<north>33.4034819577192</north><south>13.7526878979967</south><east>-84.5030540088871</east><west>-119.351260954228</west>
+	</LatLonBox>
+</GroundOverlay></kml>

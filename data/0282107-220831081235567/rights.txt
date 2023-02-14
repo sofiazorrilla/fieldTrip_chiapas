@@ -1,0 +1,174 @@
+Dataset: Catálogos florísticos de México por entidad federativa e información etnobotánica de la Colección del Herbario Nacional Biól. Luciano Vela Gálvez (INIF) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Fortalecimiento de las colecciones de ECOSUR. Primera fase (Plantas Tapachula) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Plant Resources Center 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: UTEP Plants (Arctos) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: University of Vermont, Pringle Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Actualización e incremento del banco de datos de la colección de herbario del Jardín Etnobotánico de Oaxaca 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Phanerogamic Botanical Collections (S) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Etapa final de la captura y catalogación del Herbario del Instituto de Ecología, A. C., Centro Regional del Bajío 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UEC - Herbário da Universidade Estadual de Campinas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Botanical Research Institute of Texas, Philecology Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UCBG TAPIR Provider 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: National Herbarium of Victoria (MEL) AVH data 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Digitalización y Sistematización de las Colecciones Biológicas Nacionales del Instituto de Biología, UNAM (algas, frutos y semillas, hongos, líquenes, xiloteca) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: University of Michigan Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: La vegetación y flora de las Lagunas de Catazajá-Emiliano Zapata 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: MEXU/Tipos de plantas vasculares 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: MPM Milwaukee Public Museum Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Base de datos del Herbario CIQR de El Colegio de la Frontera Sur, unidad Chetumal 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Monitoreo de la población de la guacamaya verde en la Reserva de la Biosfera Tehuacán-Cuicatlán 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Digitalización y Sistematización de las Colecciones Biológicas Nacionales del Instituto de Biología, UNAM (Plantas vasculares) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Inventario de la biodiversidad de vertebrados terrestres de los Chimalapas, Oaxaca 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Digitalización y sistematización de las colecciones biológicas del INECOL (Herbario) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Catálogo electrónico de especímenes depositados en el Herbario de la Universidad de Texas en Austin, Fase IV (Tipos) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Actualización de la base de datos sobre la flora de la Reserva de la Biósfera Sierra de Manantlán, Jalisco-Colima, México 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Texas Tech University, E. L. Reed Herbarium 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Fortalecimiento del herbario SERO 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Proyecto interno ejecutado por la CONABIO: Sistema de información sobre Bosque Mesófilo de Montaña de México para apoyo en programas de restauración (Fase 1) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Sistematización del Herbario Nacional Forestal Biól Luciano Vela Gálvez 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Regeneración de especies arbóreas del bosque mesófilo en las montañas del norte de Chiapas 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Bosque Mesófilo de Montaña de México 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Tropicos Specimen Data 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Digitalización de la colección científica del Herbario de Querétaro "Dr. Jerzy Rzedowski" QMEX 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Computarización del Herbario ENCB, IPN. Fase IV. Base de datos de la familia Pinaceae y de distintas familias de la clase Magnoliopsida depositadas en el Herbario de la Escuela Nacional de Ciencias Biológicas, IPN 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Actualización e incremento de la base de datos del Herbario de la Benemérita Universidad Autónoma de Puebla 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SBBG - Clifton Smith Herbarium, Santa Barbara Botanic Garden 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Louisiana State University, Shirley C. Tucker Herbarium - Vascular Plants 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Fortalecimiento de las colecciones de ECOSUR. Primera fase (Herbario SCLC) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Árboles mexicanos potencialmente valiosos para la restauración ecológica y la reforestación 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Computarización del Herbario ENCB. Fase II. Base de datos de los ejemplares de la familia Burseraceae y Nyctaginaceae y base de datos digitalizada de los ejemplares tipo de plantas vasculares del Herbario de la Escuela Nacional de Ciencias Biológicas, IPN 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: University of Colorado Museum of Natural History Herbarium Vascular Plant Collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Base de datos de la distribución de la flora de la Reserva de la Biosfera Tehuacán-Cuicatlán 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Field Museum of Natural History (Botany) Seed Plant Collection 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Base de datos computarizada del herbario CIB, Instituto de Investigaciones Biológicas, Universidad Veracruzana 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Computarización de la xiloteca Dr. Faustino Miranda del Instituto de Ecología, A.C. 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Catálogo electrónico de especímenes depositados en el Herbario de la Universidad de Texas en Austin, Fase IV (Ejemplaresimagenes) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SP - Herbário do Estado "Maria Eneyda P. Kaufmann Fidalgo" - Coleção de Fanerógamas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Naturalis Biodiversity Center (NL) - Botany 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: UCSB - University of California Santa Barbara Herbarium 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Natural History Museum (London) Collection Specimens 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Base de datos para la xiloteca del Instituto de Biología de la UNAM 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: The vascular plants collection (P) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: CONN 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Lund Botanical Museum (LD) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Depuración de la colección y base de datos del Herbario CICY. Fase IV 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Intermountain Herbarium (Vascular plants & algae) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: DAV - UC Davis Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Inventario etnoflorístico en regiones oaxaqueñas con gran biodiversidad 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: CAS Botany (BOT) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Propuesta para sistematizar la colección palinológica de polen reciente y fósil del IGLUNAM 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Dataset of the plant-Buprestidae (Coleoptera) interactions from Mexico 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Royal Botanic Garden Edinburgh Herbarium (E) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: NMNH Extant Specimen Records (USNM, US) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: HUCS - Herbário da Universidade de Caxias do Sul 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Harvard University Herbaria: All Records 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: R. L. McGregor Herbarium Vascular Plants Collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Actualización y depuración de la base de datos del Herbario del Instituto de Ecología, AC, Centro Regional del Bajío. Fase 2 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Carnegie Museum of Natural History Herbarium 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Estudio florístico de los bosques mesófilos de la Sierra Mazateca de Oaxaca, México 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: MEXU/Plantas Vasculares 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Árboles de Chiapas: registro georreferenciado de los ejemplares depositados en el herbario de la Academia de Ciencias de California (CAS) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UCR - University of California, Riverside Herbarium - Vascular Plants 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Sistematización de la colección entomológica y actualización de la colección del herbario CHIP del Instituto de Historia Natural y Ecología (IHNE), Chiapas (Plantas) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Banco de información sobre características tecnológicas de maderas mexicanas 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: RSA - California Botanic Garden Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Banco de datos florísticos del Herbario CHAP 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Flora y vegetación de la región terrestre prioritaria Tacaná-Boquerón, Chiapas, México 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: University of South Florida Herbarium (USF) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: FURB herbarium - Universidade Regional de Blumenau - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Catálogo de autoridad taxonómica del género Quercus, Fagaceae en México 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Invasión de Pinus spp y la conservación de la diversidad florística en Los Altos de Chiapas, México 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SD - SD Herbarium, San Diego Natural History Museum 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: The New York Botanical Garden Herbarium (NY) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: USAC, CECON, Herbario USCG 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Desert Botanical Garden Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: FURB - Herbário Dr. Roberto Miguel Klein 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Arizona State University Vascular Plant Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: iNaturalist Research-grade Observations 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode

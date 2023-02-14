@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.2/eml.xsd"
+packageId="10.15468/dl.9q2c2g"  system="http://gbif.org" scope="system"
+xml:lang="en">
+
+    <dataset>
+                <alternateIdentifier>0282028-220831081235567</alternateIdentifier>
+        <title>GBIF Occurrence Download 10.15468/dl.9q2c2g</title>
+            <creator>
+            <individualName>
+                    <surName>GBIF Download Service</surName>
+            </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>            </creator>
+            <metadataProvider>
+            <individualName>
+                    <surName>GBIF Download Service</surName>
+            </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>            </metadataProvider>
+            <pubDate>
+                2023-02-13
+            </pubDate>
+        <language>ENGLISH</language>
+            <abstract>
+                    <para>A dataset containing all occurrences available in GBIF matching the query:
+{
+  &quot;and&quot; : [
+    &quot;Country is Mexico&quot;,
+    &quot;StateProvince is one of (Chiapas, Oaxaca)&quot;,
+    &quot;TaxonKey is Quercus L.&quot;
+  ]
+}
+The dataset includes records from the following constituent datasets. The full metadata for each constituent is also included in this archive:
+6 records from Catálogos florísticos de México por entidad federativa e información etnobotánica de la Colección del Herbario Nacional Biól. Luciano Vela Gálvez (INIF)
+1 records from Fortalecimiento de las colecciones de ECOSUR. Primera fase (Plantas Tapachula)
+437 records from Plant Resources Center
+1 records from UTEP Plants (Arctos)
+4 records from University of Vermont, Pringle Herbarium
+26 records from Actualización e incremento del banco de datos de la colección de herbario del Jardín Etnobotánico de Oaxaca
+3 records from Phanerogamic Botanical Collections (S)
+275 records from Etapa final de la captura y catalogación del Herbario del Instituto de Ecología, A. C., Centro Regional del Bajío
+1 records from UEC - Herbário da Universidade Estadual de Campinas
+1 records from Botanical Research Institute of Texas, Philecology Herbarium
+5 records from UCBG TAPIR Provider
+20 records from National Herbarium of Victoria (MEL) AVH data
+6 records from Digitalización y Sistematización de las Colecciones Biológicas Nacionales del Instituto de Biología, UNAM (algas, frutos y semillas, hongos, líquenes, xiloteca)
+355 records from University of Michigan Herbarium
+1 records from La vegetación y flora de las Lagunas de Catazajá-Emiliano Zapata
+19 records from MEXU/Tipos de plantas vasculares
+3 records from MPM Milwaukee Public Museum Herbarium
+5 records from Base de datos del Herbario CIQR de El Colegio de la Frontera Sur, unidad Chetumal
+256 records from Monitoreo de la población de la guacamaya verde en la Reserva de la Biosfera Tehuacán-Cuicatlán
+3631 records from Digitalización y Sistematización de las Colecciones Biológicas Nacionales del Instituto de Biología, UNAM (Plantas vasculares)
+1 records from Inventario de la biodiversidad de vertebrados terrestres de los Chimalapas, Oaxaca
+353 records from Digitalización y sistematización de las colecciones biológicas del INECOL (Herbario)
+1 records from Catálogo electrónico de especímenes depositados en el Herbario de la Universidad de Texas en Austin, Fase IV (Tipos)
+1 records from Actualización de la base de datos sobre la flora de la Reserva de la Biósfera Sierra de Manantlán, Jalisco-Colima, México
+1 records from Texas Tech University, E. L. Reed Herbarium
+131 records from Fortalecimiento del herbario SERO
+3 records from Proyecto interno ejecutado por la CONABIO: Sistema de información sobre Bosque Mesófilo de Montaña de México para apoyo en programas de restauración (Fase 1)
+276 records from Sistematización del Herbario Nacional Forestal Biól Luciano Vela Gálvez
+965 records from Regeneración de especies arbóreas del bosque mesófilo en las montañas del norte de Chiapas
+171 records from Bosque Mesófilo de Montaña de México
+1057 records from Tropicos Specimen Data
+23 records from Digitalización de la colección científica del Herbario de Querétaro &quot;Dr. Jerzy Rzedowski&quot; QMEX
+690 records from Computarización del Herbario ENCB, IPN. Fase IV. Base de datos de la familia Pinaceae y de distintas familias de la clase Magnoliopsida depositadas en el Herbario de la Escuela Nacional de Ciencias Biológicas, IPN
+54 records from Actualización e incremento de la base de datos del Herbario de la Benemérita Universidad Autónoma de Puebla
+1 records from SBBG - Clifton Smith Herbarium, Santa Barbara Botanic Garden
+4 records from Louisiana State University, Shirley C. Tucker Herbarium - Vascular Plants
+172 records from Fortalecimiento de las colecciones de ECOSUR. Primera fase (Herbario SCLC)
+18 records from Árboles mexicanos potencialmente valiosos para la restauración ecológica y la reforestación
+5 records from Computarización del Herbario ENCB. Fase II. Base de datos de los ejemplares de la familia Burseraceae y Nyctaginaceae y base de datos digitalizada de los ejemplares tipo de plantas vasculares del Herbario de la Escuela Nacional de Ciencias Biológicas, IPN
+7 records from University of Colorado Museum of Natural History Herbarium Vascular Plant Collection
+275 records from Base de datos de la distribución de la flora de la Reserva de la Biosfera Tehuacán-Cuicatlán
+7 records from Field Museum of Natural History (Botany) Seed Plant Collection
+4 records from Base de datos computarizada del herbario CIB, Instituto de Investigaciones Biológicas, Universidad Veracruzana
+17 records from Computarización de la xiloteca Dr. Faustino Miranda del Instituto de Ecología, A.C.
+308 records from Catálogo electrónico de especímenes depositados en el Herbario de la Universidad de Texas en Austin, Fase IV (Ejemplaresimagenes)
+1 records from SP - Herbário do Estado &quot;Maria Eneyda P. Kaufmann Fidalgo&quot; - Coleção de Fanerógamas
+11 records from Naturalis Biodiversity Center (NL) - Botany
+33 records from UCSB - University of California Santa Barbara Herbarium
+6 records from Natural History Museum (London) Collection Specimens
+12 records from Base de datos para la xiloteca del Instituto de Biología de la UNAM
+50 records from The vascular plants collection (P) at the Herbarium of the Muséum national d&apos;Histoire Naturelle (MNHN - Paris)
+1 records from CONN
+2 records from Lund Botanical Museum (LD)
+14 records from Depuración de la colección y base de datos del Herbario CICY. Fase IV
+1 records from Intermountain Herbarium (Vascular plants &amp; algae)
+2 records from DAV - UC Davis Herbarium
+160 records from Inventario etnoflorístico en regiones oaxaqueñas con gran biodiversidad
+1560 records from CAS Botany (BOT)
+3 records from Propuesta para sistematizar la colección palinológica de polen reciente y fósil del IGLUNAM
+1 records from Dataset of the plant-Buprestidae (Coleoptera) interactions from Mexico
+4 records from Royal Botanic Garden Edinburgh Herbarium (E)
+251 records from NMNH Extant Specimen Records (USNM, US)
+1 records from HUCS - Herbário da Universidade de Caxias do Sul
+19 records from Harvard University Herbaria: All Records
+1 records from R. L. McGregor Herbarium Vascular Plants Collection
+71 records from Actualización y depuración de la base de datos del Herbario del Instituto de Ecología, AC, Centro Regional del Bajío. Fase 2
+3 records from Carnegie Museum of Natural History Herbarium
+29 records from Estudio florístico de los bosques mesófilos de la Sierra Mazateca de Oaxaca, México
+227 records from MEXU/Plantas Vasculares
+920 records from Árboles de Chiapas: registro georreferenciado de los ejemplares depositados en el herbario de la Academia de Ciencias de California (CAS)
+151 records from UCR - University of California, Riverside Herbarium - Vascular Plants
+186 records from Sistematización de la colección entomológica y actualización de la colección del herbario CHIP del Instituto de Historia Natural y Ecología (IHNE), Chiapas (Plantas)
+13 records from Banco de información sobre características tecnológicas de maderas mexicanas
+4 records from RSA - California Botanic Garden Herbarium
+5 records from Banco de datos florísticos del Herbario CHAP
+287 records from Flora y vegetación de la región terrestre prioritaria Tacaná-Boquerón, Chiapas, México
+12 records from University of South Florida Herbarium (USF)
+3 records from FURB herbarium - Universidade Regional de Blumenau - Herbário Virtual REFLORA
+48 records from Catálogo de autoridad taxonómica del género Quercus, Fagaceae en México
+414 records from Invasión de Pinus spp y la conservación de la diversidad florística en Los Altos de Chiapas, México
+5 records from SD - SD Herbarium, San Diego Natural History Museum
+19 records from The New York Botanical Garden Herbarium (NY)
+9 records from USAC, CECON, Herbario USCG
+13 records from Desert Botanical Garden Herbarium
+3 records from FURB - Herbário Dr. Roberto Miguel Klein
+11 records from Arizona State University Vascular Plant Herbarium
+530 records from iNaturalist Research-grade Observations</para>
+            </abstract>
+            <contact>
+            <individualName>
+                    <surName>GBIF Download Service</surName>
+            </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>            </contact>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2023-02-13T11:41:12Z</dateStamp>
+                <citation identifier="10.15468/dl.9q2c2g">GBIF Occurrence Download 10.15468/dl.9q2c2g</citation>
+                    <physical>
+                        <objectName>Darwin Core Archive</objectName>
+                        <characterEncoding>UTF-8</characterEncoding>
+                        <dataFormat>
+                            <externallyDefinedFormat>
+                                <formatName>Darwin Core Archive</formatName>
+                            </externallyDefinedFormat>
+                        </dataFormat>
+                        <distribution>
+                            <online>
+                                <url function="download">https://api.gbif.org/v1/occurrence/download/request/0282028-220831081235567.zip</url>
+                            </online>
+                        </distribution>
+                    </physical>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+
+</eml:eml>

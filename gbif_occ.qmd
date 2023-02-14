@@ -1,0 +1,115 @@
+---
+title: "Quercus occurrences in chiapas"
+---
+
+
+```{r}
+library(rgbif)
+library(tidyverse)
+
+# Genere la query en el buscador web, la descargue, revise los metadatos y encontre el numero para importar la descarga. Se puede hacer todo desde R pero no supe por que los resultados cambiaban mucho (numero de registros)
+
+d <- occ_download_get('0282107-220831081235567') %>%
+    occ_download_import()
+
+dat = d %>% select(
+        year,
+        month,
+        day,
+        habitat,
+        stateProvince,
+        locality,
+        decimalLatitude,
+        decimalLongitude,
+        scientificName,
+        genus,
+        subgenus,
+        specificEpithet,
+        elevation) %>% filter(!is.na(decimalLatitude)) %>% filter(!is.na(specificEpithet))
+
+ch = filter(dat, stateProvince == "Chiapas")
+oax = filter(dat, stateProvince == "Oaxaca")
+
+dat %>% group_by(genus,specificEpithet) %>% summarise(n = n())
+
+write.csv(dat,"data/sp_coord2.csv", row.names = F)
+
+
+write.csv(ch,"data/ch_coord2.csv", row.names = F)
+
+
+write.csv(oax,"data/oax_coord2.csv", row.names = F)
+
+```
+
+
+
+```{r}
+
+library(treedataverse)
+library("readxl")
+
+
+raxml_file <- "data/RAxML_bipartitions.2019-03-13.singles.v4.tre"
+raxml_res <- read.tree(raxml_file)
+
+# xlsx files
+metadata <- read_excel("data/sample_metadata.xlsx",sheet = 1)
+
+
+```
+
+
+
+```{r}
+sp = dat %>% group_by(genus,specificEpithet) %>% reframe(sp = unique(scientificName)) %>% mutate(sp2 = paste(genus, specificEpithet))
+
+
+# De las especies de los registros de Chiapas cuales estan en la filogenia 
+filogenia = lapply(sp[["specificEpithet"]][-1],function(x) any(str_detect(metadata$`Cleaned_NAMES-USE-THIS`,x),na.rm = T))
+
+# De las especies de la filogenia cuales estan en chiapas
+chiapas =  lapply(metadata[["Cleaned_NAMES-USE-THIS"]],function(x) any(str_detect(sp$sp2[-1],x),na.rm = T))
+
+# Agregar columna a su respectiva tabla 
+sp$filogenia = c(NA,unlist(filogenia))
+metadata$inChiapas = unlist(chiapas)
+
+# Especies de clados blancos y rojos mexicanos 
+mexicanas = filter(metadata, clade %in% c("Erythromexicana","Leucomexicana"))
+
+# Especies de la filogenia en chiapas 
+chps = filter(metadata, inChiapas == T)
+
+```
+
+
+
+```{r}
+met_tree = raxml_res %>% as_tibble() %>% left_join(metadata, by = "label") 
+
+mex_tre = met_tree %>% filter(clade %in% c("Erythromexicana","Leucomexicana")) 
+
+ch_tre = met_tree %>% filter(inChiapas == T) 
+
+```
+
+
+```{r}
+tree = as.treedata(mex_tre) %>%  #drop.tip(., to_drop) %>% 
+   ggtree() +
+      geom_nodelab(
+        mapping = aes(
+          x = branch,
+        ),
+        nudge_y = 2,
+        size = 3
+      )#+
+   geom_tiplab(aes(label = paste(especie_orig,id_sitio,id_individuo,sep = "|")), size = 1)+
+   geom_point(aes(shape = especie_orig,fill = reg,color = reg))+
+  scale_shape_manual(values = c(21:25))+
+  geom_cladelab(data = node_clade, mapping = aes(node = node, label = clade, offset = offset),angle=90)+
+  geom_cladelab(data = node_subclade, mapping = aes(node = node, label = subclade, offset = offset),align = T)+
+     scale_color_brewer(palette = "Paired")+
+  scale_fill_brewer(palette = "Paired")
+```
